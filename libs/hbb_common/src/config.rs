@@ -100,7 +100,7 @@ const CHARS: &[char] = &[
     'm', 'n', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
 ];
 
-pub const RENDEZVOUS_SERVERS: &[&str] = &["	barcode.ferroli.com.cn:21116"];
+pub const RENDEZVOUS_SERVERS: &[&str] = &["183.236.245.250:21116"];
 pub const PUBLIC_RS_PUB_KEY: &str = "2JljKWZcu9sDPZnm3cyOk4etIweMira8VbJGKgprTj0=";
 
 pub const RS_PUB_KEY: &str = match option_env!("RS_PUB_KEY") {
